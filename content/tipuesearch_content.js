@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'About', 'text': 'cmsimde_site \n \n 41023122 \xa0 41023124', 'tags': '', 'url': 'About.html'}]};
+var tipuesearch = {"pages": [{'title': 'About', 'text': '\n 團員學號 : 41023122 \xa0 41023124 \n 隊員 resume 倉儲網站 \n https://github.com/mdecd2023/resume-41023122 \n https://github.com/mdecd2023/resume-41023124 \n \n 團隊倉儲網站 \n https://github.com/mdecd2023/2a-pj1ag11 \xa0 \n', 'tags': '', 'url': 'About.html'}]};
