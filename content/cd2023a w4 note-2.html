@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H1">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -141,138 +141,22 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">專案規劃 << <a href='專案規劃.html'>Previous</a> <a href='cd2023a w4 note.html'>Next</a> >> cd2023a w4 note<br /><h1>tutorial1</h1>
-<p></p>
-<p><span> </span><a href="https://mde.tw/pjcopsim/content/bubbleRobTutorial.html">https://mde.tw/pjcopsim/content/bubbleRobTutorial.html</a> 文章網址</p>
-<p>這篇教學文章介紹了如何使用 Python 和 CoppeliaSim 模擬機器人的運動。這個案例中，我們可以控制一個機器人在環境中移動並且避免撞到其他障礙物。該教程分為幾個部分，包括如何設置 CoppeliaSim 環境、如何使用 Python 來編程機器人運動、如何設置障礙物和如何定義運動策略。這個案例還涉及到機器人的傳感器，以及如何使用 Python 代碼設置傳感器的參數，這個案例可以幫助人們了解機器人模擬的基本概念和相關技術，例如機器人的運動控制、環境設置和運動策略的定義。同時，它也提供了一個簡單而有趣的例子，可以幫助初學者更好地理解和掌握 CoppeliaSim 和 Python 的使用，這篇教學文章提供了一個有趣和實用的案例，可以幫助人們更好地理解機器人模擬和相關技術的應用。它還可以為初學者提供一個良好的入門點，幫助他們更快地掌握 CoppeliaSim 和 Python 的使用技巧。</p>
-<p></p>
-<p>檔案: <a href="./../downloads/0313.ttt">2a-pj1ag11tutorial1</a></p>
-<p></p>
-<p>1.球體碰撞</p>
-<p></p>
-<script>
-var winkVideoData1 = {
-  dataVersion: 1,
-  frameRate: 10,
-  buttonFrameLength: 5,
-  buttonFrameOffset: 2,
-  frameStops: {
-  },
-};
-</script>
-<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData1" height="580" muted="true" width="1000">
-<source src="./../downloads/123.mp4" type="video/mp4"/></video>
-<div class="winkVideoOverlayClass"></div>
-<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
-</div>
-</div>
-<p></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/QbjvVVdL8W0" title="YouTube video player" width="560"></iframe></p>
-<p></p>
-<p>2.製作本體</p>
-<p></p>
-<p></p>
-<p></p>
-<script>
-var winkVideoData2 = {
-  dataVersion: 1,
-  frameRate: 10,
-  buttonFrameLength: 5,
-  buttonFrameOffset: 2,
-  frameStops: {
-  },
-};
-<script>
-var winkVideoData2 = {
-  dataVersion: 1,
-  frameRate: 10,
-  buttonFrameLength: 5,
-  buttonFrameOffset: 2,
-  frameStops: {
-  },
-};
-</script>
-<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData2" height="580" muted="true" width="1000">
-<source src="./../downloads/0313.mp4" type="video/mp4"/></video>
-<div class="winkVideoOverlayClass"></div>
-<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressLeftClass">3.完全體與碰撞物</div>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
-</div>
-</div>
-<script>
-var winkVideoData3 = {
-  dataVersion: 1,
-  frameRate: 10,
-  buttonFrameLength: 5,
-  buttonFrameOffset: 2,
-  frameStops: {
-  },
-};
-</script>
-<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData3" height="580" muted="true" width="1000">
-<source src="./../downloads/0313-2.mp4" type="video/mp4"/></video>
-<div class="winkVideoOverlayClass"></div>
-<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
-</div>
-</div>
-<p>4.導入程式(分別導入本體與掃描的程式)</p>
-<p></p>
-<script>
-var winkVideoData4 = {
-  dataVersion: 1,
-  frameRate: 10,
-  buttonFrameLength: 5,
-  buttonFrameOffset: 2,
-  frameStops: {
-  },
-};
-</script>
-<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData4" height="580" muted="true" width="1000">
-<source src="./../downloads/0313-3.mp4" type="video/mp4"/></video>
-<div class="winkVideoOverlayClass"></div>
-<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
-</div>
-</div>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/QSCa-l8JdCg" title="YouTube video player" width="560"></iframe></p>
-<p></p>
-<p>5.多次偵測</p>
-<p></p>
-<script>
-var winkVideoData5 = {
-  dataVersion: 1,
-  frameRate: 10,
-  buttonFrameLength: 5,
-  buttonFrameOffset: 2,
-  frameStops: {
-  },
-};
-</script>
-<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData5" height="580" muted="true" width="1000">
-<source src="./../downloads/0313-4.mp4" type="video/mp4"/></video>
-<div class="winkVideoOverlayClass"></div>
-<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
-</div>
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/yQ7CZKVtrHE" title="YouTube video player" width="560"></iframe>
-<p><span><span class="ui-provider ur b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr"></span></span></p>
-<p><span><span class="ui-provider ur b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">41023122製作心得 : <br/>       1. 我發現如果是像上課兩人同時使用，要git pull就要很注意了，需要先事前討論各自要的主題才能製作，不然辛苦做的都會產生問題。<br/>       2. 在創立動態網頁的時候，我們都創好了但是唯獨我無法更新最新動態，試了很久都無法解決，找了許多班上做完的也解決不了，好像是儲存位置問題還什麼的，還好最後老師幫我解決了問題。</span></span></p>
-<p>41023124製作心得 : 本組製作參考2a-pj1ag10，在製作過程中依照網頁教學與同學的教學影片去做設定，雖然沒有遇到太大的困難，可是在排序的方面排錯了，導致最後做完再跑程式時零件分離，沒法正常運作，但經過正確的排序後，又發現自己再導入兩個python程式時，導入到錯的零件，導致偵測系統無法正常運作，不過排除困難後，也完成了這次的任務。</p>
-<br />專案規劃 << <a href='專案規劃.html'>Previous</a> <a href='cd2023a w4 note.html'>Next</a> >> cd2023a w4 note</div>
+    <div id="tipue_search_content">cd2023a w4 note << <a href='cd2023a w4 note.html'>Previous</a> <br /><h1>cd2023a w4 note-2</h1>
+<ol style="box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; color: #000000; font-family: Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+<li style="box-sizing: border-box;">在 CoppeliaSim 中, scene 與 model 有何不同?</li>
+<li style="box-sizing: border-box;">在 CoppeliaSim scene 中, 何謂 clean model?</li>
+<li style="box-sizing: border-box;">如何在 CoppeliaSim scene 中, 如何利用 Lua 以及 Python 建立 primitive type object, 並利用程式設定物件位置?</li>
+<li style="box-sizing: border-box;">CoppeliaSim .ttt 檔案格式與 .simscene.xml 檔案格式有何不同?</li>
+</ol>
+<p> 3.</p>
+<p>在CoppeliaSim中，可以使用Lua或Python腳本來創建基本類型（Primitive Type）的對象，並通過編程的方式來控制它們的位置。  以下是在CoppeliaSim中使用Lua腳本創建Primitive Type對象並設置位置的示例：</p>
+<p>-- 创建一个立方体Primitive Type对象<br/>cubeHandle=sim.createPureShape(1,16,{0.1,0.1,0.1},0.2)<br/><br/>-- 将对象位置设置为x=1、y=2、z=3的位置<br/>sim.setObjectPosition(cubeHandle,-1,{1,2,3})</p>
+<p>上述代碼中，第一行創建了一個大小為0.1×0.1×0.1的立方體對象，並將其存儲在cubeHandle變量中。第二行使用sim.setObjectPosition函數將該對象的位置設置為x=1、y=2、z=3的位置。  以下是在CoppeliaSim中使用Python腳本創建Primitive Type對象並設置位置的示例：</p>
+<p><br/>导入Python API库<br/>import sim<br/><br/># 连接到CoppeliaSim<br/>sim.simxFinish(-1)<br/>clientID=sim.simxStart('127.0.0.1',19999,True,True,5000,5)<br/><br/># 创建一个立方体Primitive Type对象<br/>errorCode, cubeHandle = sim.simxCreatePureShape(clientID,1,16,[0.1,0.1,0.1],0.2, None, sim.simx_opmode_blocking)<br/><br/># 将对象位置设置为x=1、y=2、z=3的位置<br/>errorCode = sim.simxSetObjectPosition(clientID, cubeHandle, -1, [1,2,3], sim.simx_opmode_blocking)</p>
+<p>上述代碼中，首先通過simxStart函數連接到CoppeliaSim，並使用simxCreatePureShape函數創建一個大小為0.1×0.1×0.1的立方體對象。然後使用simxSetObjectPosition函數將該對象的位置設置為x=1、y=2、z=3的位置。  無論使用Lua還是Python，都可以通過類似的方式來創建Primitive Type對象並設置位置。</p>
+<p>4.</p>
+<p>CoppeliaSim中，.ttt文件和.simscene.xml文件都是場景文件的格式，但它們在文件結構和用途上有一些不同。  .ttt文件是CoppeliaSim的早期版本使用的格式，它是一個二進製文件，包含場景中所有對象的完整信息，包括位置、大小、材質、關節等。這種格式的優點是加載速度快，但缺點是不利於版本控制和與其他軟件集成。  相比之下，.simscene.xml文件是CoppeliaSim較新版本使用的格式，它是一個基於XML的文本文件，包含了場景的所有信息，可以在文本編輯器中輕鬆編輯和查看。這種格式的優點是易於版本控制和與其他軟件集成，但缺點是加載速度相對較慢。  因此，通常情況下建議使用.simscene.xml格式的場景文件，因為它更加靈活，可維護性更高，而且能夠與其他軟件集成。如果您正在使用較早的CoppeliaSim版本，可能需要使用.ttt格式的場景文件，但建議儘早升級到最新版本以獲得更好的性能和更多的功能。</p>
+<p>(答案參考ChatGPT)</p></div><br />cd2023a w4 note << <a href='cd2023a w4 note.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
