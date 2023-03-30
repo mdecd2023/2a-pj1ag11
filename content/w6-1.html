@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -141,24 +141,11 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">cd2023a w4 note << <a href='cd2023a w4 note.html'>Previous</a> <a href='football.html'>Next</a> >> football<br /><h1>cd2023a w4 note-2</h1>
-<ol style="box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; color: #000000; font-family: Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
-<li style="box-sizing: border-box;">在 CoppeliaSim 中, scene 與 model 有何不同?</li>
-<li style="box-sizing: border-box;">在 CoppeliaSim scene 中, 何謂 clean model?</li>
-<li style="box-sizing: border-box;">如何在 CoppeliaSim scene 中, 如何利用 Lua 以及 Python 建立 primitive type object, 並利用程式設定物件位置?</li>
-<li style="box-sizing: border-box;">CoppeliaSim .ttt 檔案格式與 .simscene.xml 檔案格式有何不同?</li>
-</ol>
-<p> 3.</p>
-<p>在CoppeliaSim中，可以使用Lua或Python腳本來創建基本類型（Primitive Type）的對象，並通過編程的方式來控制它們的位置。  以下是在CoppeliaSim中使用Lua腳本創建Primitive Type對象並設置位置的示例：</p>
-<p>-- 创建一个立方体Primitive Type对象<br/>cubeHandle=sim.createPureShape(1,16,{0.1,0.1,0.1},0.2)<br/><br/>-- 将对象位置设置为x=1、y=2、z=3的位置<br/>sim.setObjectPosition(cubeHandle,-1,{1,2,3})</p>
-<p>上述代碼中，第一行創建了一個大小為0.1×0.1×0.1的立方體對象，並將其存儲在cubeHandle變量中。第二行使用sim.setObjectPosition函數將該對象的位置設置為x=1、y=2、z=3的位置。  以下是在CoppeliaSim中使用Python腳本創建Primitive Type對象並設置位置的示例：</p>
-<p><br/>导入Python API库<br/>import sim<br/><br/># 连接到CoppeliaSim<br/>sim.simxFinish(-1)<br/>clientID=sim.simxStart('127.0.0.1',19999,True,True,5000,5)<br/><br/># 创建一个立方体Primitive Type对象<br/>errorCode, cubeHandle = sim.simxCreatePureShape(clientID,1,16,[0.1,0.1,0.1],0.2, None, sim.simx_opmode_blocking)<br/><br/># 将对象位置设置为x=1、y=2、z=3的位置<br/>errorCode = sim.simxSetObjectPosition(clientID, cubeHandle, -1, [1,2,3], sim.simx_opmode_blocking)</p>
-<p>上述代碼中，首先通過simxStart函數連接到CoppeliaSim，並使用simxCreatePureShape函數創建一個大小為0.1×0.1×0.1的立方體對象。然後使用simxSetObjectPosition函數將該對象的位置設置為x=1、y=2、z=3的位置。  無論使用Lua還是Python，都可以通過類似的方式來創建Primitive Type對象並設置位置。</p>
-<p>4.</p>
-<p>CoppeliaSim中，.ttt文件和.simscene.xml文件都是場景文件的格式，但它們在文件結構和用途上有一些不同。  .ttt文件是CoppeliaSim的早期版本使用的格式，它是一個二進製文件，包含場景中所有對象的完整信息，包括位置、大小、材質、關節等。這種格式的優點是加載速度快，但缺點是不利於版本控制和與其他軟件集成。  相比之下，.simscene.xml文件是CoppeliaSim較新版本使用的格式，它是一個基於XML的文本文件，包含了場景的所有信息，可以在文本編輯器中輕鬆編輯和查看。這種格式的優點是易於版本控制和與其他軟件集成，但缺點是加載速度相對較慢。  因此，通常情況下建議使用.simscene.xml格式的場景文件，因為它更加靈活，可維護性更高，而且能夠與其他軟件集成。如果您正在使用較早的CoppeliaSim版本，可能需要使用.ttt格式的場景文件，但建議儘早升級到最新版本以獲得更好的性能和更多的功能。</p>
-<p>(答案參考ChatGPT)</p>
-<p></p>
-<br />cd2023a w4 note << <a href='cd2023a w4 note.html'>Previous</a> <a href='football.html'>Next</a> >> football</div>
+    <div id="tipue_search_content">w6 << <a href='w6.html'>Previous</a> <a href='專案規劃.html'>Next</a> >> 專案規劃<br /><h1>w6-1</h1>
+<p>利用上禮拜下載之資料夾中的 Python remote API 在 IPv4 網路架構下,</p>
+<p>將小組分組代號送到 192.168.1.8 scene 主機的 19997 埠號場景中,</p>
+<p>並且送回訊息為 : Hello,bubbleRob,我們是agx分組 !</p>
+<p>利用 one_link_robot_remoteAPI_velocity.ttt 和 simpleTest_19997.py 修改</p><br />w6 << <a href='w6.html'>Previous</a> <a href='專案規劃.html'>Next</a> >> 專案規劃</div>
         
     <!-- footer -->
       <div class="container">
